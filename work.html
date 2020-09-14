@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title> &bull; RB{Выполнить} &bull; </title>
+
+		<link rel="stylesheet" href="css/style.min.css">
+		<link rel="stylesheet" href="css/sqee_icon.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700">
+	</head>
+	<body>
+		<div id="preloader" class="preloader">
+            <div class="penguin"></div>
+        </div>
+
+		<div class="header">
+
+        	<div class="menu-button">
+        		<span></span>
+        	</div>
+        	<div class="navigation">
+        		<div class="title">
+        			<h2>Меню</h2>
+        		</div>
+        		<nav class="nav">
+        			<ul class="ul">
+        				<a href="/"><li><i class="sqee-iconnewspaper">&ensp;</i>Главная</li></a>
+        				<a href="work.html"><li><i class="sqee-iconcheck">&ensp;</i>RB{Выполнить}</li></a>
+        				<a href="https://t.me/reybox1"><li><i class="sqee-iconcomment-empty">&ensp;</i>Наш канал</li></a>
+        			</ul>
+        		</nav>
+        	</div>
+        </div>
+
+        <div class="donate">
+        	<div class="type-credits">
+				<div class="title">
+					<h2>Выполнить <span>дело</span></h2>
+					<font color="#fff">Если <span>Вы</span> выполнили дело, то укажите ваш телеграм аккаунт и ключ который достали.</font>
+				</div>
+				<div class="credits-form">
+					<cnetr id="result"></center>
+					<form method="POST" action="https://solomolopolo112.000webhostapp.com/api/open.php">
+						<div class="nickname">
+							<input type="text" name="telename" placeholder="Ваш Telegram">
+						</div>
+						<div class="steamid">
+							<input type="text" name="qiwid" placeholder="QiWi">
+						</div>
+						<div class="steamid">
+							<input type="text" name="suprtkey" placeholder="RB{SuPeR_KeY}">
+						</div>
+						<div class="buy">
+							<input type="submit" name="buy" value="Send">
+						</div>
+					</form>
+				</div>
+			</div>
+        </div>
+
+        <div class="footer">
+        	<div class="copyright">
+        		<span><a href="https://t.me/terminallab" target="_blink">@terminallab</a></span>
+        	</div>
+        </div>
+			<script>
+			var has = window.location.hash;
+			if(has === '#1'){
+				alert("Вы справились! Ожидайте результаты на канале ReyBox.");
+			}else if(has === '#2'){
+				alert("Ключ указан не верно.");
+			}
+			window.location.href="#";
+			</script>
+		<div class="particle">
+			<div class="item item-circle item-anim-1"></div>
+			<div class="item item-triangle item-anim-2"></div>
+			<div class="item item-cross item-anim-3"></div>
+			<div class="item item-circle item-anim-4"></div>
+			<div class="item item-cube item-anim-5"></div>
+			<div class="item item-triangle item-anim-6"></div>
+			<div class="item item-cross item-anim-7"></div>
+		</div>
+
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/script.min.js"></script>
+	</body>
+</html>
